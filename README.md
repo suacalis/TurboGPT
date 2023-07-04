@@ -1,8 +1,15 @@
 # TurboGPT
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://turbogpt.streamlit.app/)
 
-TurboGPT is a chatbot similar of ChatGPT, powered by the GPT-3.5 language model, developed by [Tushar Aggarwal](https://tushar-aggarwal.com). This chatbot is built using Streamlit, a Python library for creating web applications. With TurboGPT, you can have interactive conversations with an AI-powered language model, making it ideal for various applications such as virtual assistants, customer support, and more.
-### Note: Due to obvious reason, OpenAI API is needed, I promise, TurboGPT won't store your API key , but will only store conversation history. After you exit, that too will be dumped.
+TurboGPT is a chatbot similar to ChatGPT, powered by the GPT-3.5 language model, developed by [Tushar Aggarwal](https://tushar-aggarwal.com). This chatbot is built using Streamlit, a Python library for creating web applications. With TurboGPT, you can have interactive conversations with an AI-powered language model, making it ideal for various applications such as virtual assistants, customer support, and more.
+### Note: Due to obvious reasons, OpenAI API key is needed, I promise, TurboGPT won't store your API key, but will only store conversation history. After you exit, that too will be dumped.
+
+
+
+
+
+![Untitled design](https://github.com/tushar2704/TurboGPT/assets/66141195/2c4e3a06-c043-4be9-ac9d-d4ee685c0e55)
+
 
 ## Features
 
