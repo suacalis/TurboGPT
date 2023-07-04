@@ -10,15 +10,15 @@ st.set_page_config(page_title="🤖TurboGPT🤖",
                    layout='wide')
 # Title of application
 st.title("🤖TurboGPT")
-st.markdown("### By [Tushar Aggarwal](https://www.tushar-aggarwal.com/)")
+st.markdown("### By [Tushar Aggarwal](https://github.com/tushar2704)")
 
 # Initialize OpenAI API
 
-st.sidebar.markdown("## OpenAI API Key")
+st.sidebar.markdown("## OpenAI API Key (Required)")
 
-api_key = st.sidebar.text_input("Enter your OpenAI API key")
+api_key = st.sidebar.text_input("Please enter your OpenAI API key to proceed")
 if not api_key:
-    st.write("Please enter your OpenAI API key first. Don't worry this will not be stored.")
+    st.write("Please enter your OpenAI API key. Don't worry this will not be stored.")
     st.stop()
 
 openai.api_key = api_key
@@ -38,7 +38,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
         
 #react to user input
-prompt = st.chat_input("How can i help you today?")
+prompt = st.chat_input("How can I help you today?")
 
 if prompt:
     #display user message in chat message container

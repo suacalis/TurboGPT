@@ -1,4 +1,5 @@
 # TurboGPT
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://turbogpt.streamlit.app/)
 
 TurboGPT is a chatbot clone of ChatGPT, powered by the GPT-3.5 language model, developed by OpenAI. This chatbot is built using Streamlit, a Python library for creating web applications. With TurboGPT, you can have interactive conversations with an AI-powered language model, making it ideal for various applications such as virtual assistants, customer support, and more.
 
