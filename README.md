@@ -1,7 +1,8 @@
 # TurboGPT
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://turbogpt.streamlit.app/)
 
-TurboGPT is a chatbot clone of ChatGPT, powered by the GPT-3.5 language model, developed by OpenAI. This chatbot is built using Streamlit, a Python library for creating web applications. With TurboGPT, you can have interactive conversations with an AI-powered language model, making it ideal for various applications such as virtual assistants, customer support, and more.
+TurboGPT is a chatbot similar of ChatGPT, powered by the GPT-3.5 language model, developed by [Tushar Aggarwal](https://tushar-aggarwal.com). This chatbot is built using Streamlit, a Python library for creating web applications. With TurboGPT, you can have interactive conversations with an AI-powered language model, making it ideal for various applications such as virtual assistants, customer support, and more.
+### Note: Due to obvious reason, OpenAI API is needed, I promise, TurboGPT won't store your API key , but will only store conversation history. After you exit, that too will be dumped.
 
 ## Features
 
@@ -15,7 +16,7 @@ TurboGPT is a chatbot clone of ChatGPT, powered by the GPT-3.5 language model, d
 
 To run TurboGPT locally, follow these steps:
 
-1. Clone the TurboGPT repository: `git clone https://github.com/your-username/TurboGPT.git`
+1. Clone the TurboGPT repository: `git clone https://github.com/tushar2704/TurboGPT.git`
 2. Navigate to the project directory: `cd TurboGPT`
 3. Install the required dependencies: `pip install -r requirements.txt`
 4. Run the application: `streamlit run app.py`
@@ -23,25 +24,9 @@ To run TurboGPT locally, follow these steps:
 
 ## Configuration
 
-The configuration for TurboGPT can be found in the `config.py` file. Here, you can modify parameters such as the GPT model version, maximum response length, and more, to customize the behavior of the chatbot.
+The configuration for TurboGPT can be found in the `TurboGPT.py` file. Here, you can modify parameters such as the GPT model version, maximum response length, and more, to customize the behavior of the chatbot.
 
-## Examples
 
-Below are some examples of how to use TurboGPT:
-
-```python
-import streamlit as st
-from turbo_gpt import TurboGPT
-
-# Instantiate TurboGPT
-chatbot = TurboGPT()
-
-# Display chat interface
-st.title("TurboGPT - AI Chatbot")
-user_input = st.text_input("You:")
-response = chatbot.get_response(user_input)
-st.text_area("TurboGPT:", response, height=200)
-```
 
 ## Limitations
 
@@ -53,7 +38,7 @@ While TurboGPT provides advanced natural language processing capabilities, it al
 
 ## License
 
-TurboGPT is released under the [MIT License](https://github.com/your-username/TurboGPT/blob/main/LICENSE).
+TurboGPT is released under the [MIT License](https://github.com/tushar2704/TurboGPT/blob/main/LICENSE).
 
 ## Acknowledgments
 
