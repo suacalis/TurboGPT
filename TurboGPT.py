@@ -19,4 +19,35 @@ api_key = st.sidebar.text_input("Enter your OpenAI API key")
 if not api_key:
     st.write("Please enter your OpenAI API key first. Don't worry this will not be stored.")
     st.stop()
+
 openai.api_key = api_key
+
+#model session state
+if "openai_model" not in st.session_state:
+    st.session_state["openai_model"]="gpt-3.5-turbo"
+
+
+#initializing chat history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
