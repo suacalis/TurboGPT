@@ -9,7 +9,6 @@ TurboGPT is a chatbot similar to ChatGPT, powered by the GPT-3.5 language model,
 
 
 ## Features
-
 - **Natural Language Processing**: TurboGPT utilizes the advanced natural language processing capabilities of the GPT-3.5 model, allowing it to understand and generate human-like responses.
 - **Interactive Conversations**: Engage in interactive and dynamic conversations with TurboGPT. You can chat with the chatbot and receive real-time responses.
 - **Easy-to-Use Interface**: TurboGPT is built using Streamlit, which provides a user-friendly and intuitive interface for interacting with the chatbot. You can easily input your queries and view the responses in a conversational format.
