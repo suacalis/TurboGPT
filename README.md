@@ -6,7 +6,6 @@ TurboGPT is a chatbot similar to ChatGPT, powered by the GPT-3.5 language model,
 ### Note: Due to obvious reasons, an OpenAI API key is needed, I promise, TurboGPT won't store your API key, but will only store conversation history. After you exit, that too will be dumped.
 
 
-
 ![Untitled design](https://github.com/tushar2704/TurboGPT/assets/66141195/2c4e3a06-c043-4be9-ac9d-d4ee685c0e55)
 
 
